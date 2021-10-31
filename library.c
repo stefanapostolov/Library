@@ -34,8 +34,8 @@
 typedef struct book_s {
 
 	char ISBN[MAX_ISBN+1];
-	char autor[MAX_LETTERS];
-	char title[MAX_LETTERS];
+	char autor[MAX_LETTERS+1];
+	char title[MAX_LETTERS+1];
 	int year;
 	float cost;
 	int shelf_code;
